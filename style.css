@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(63, 206, 168);
+    font: normal 30pt sans-serif;
+    
+}
+
+h1{
+    font-weight:lighter;
+    text-align: center ;
+}
+
+p{
+ text-align: center;
+}

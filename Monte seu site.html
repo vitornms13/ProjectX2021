@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta author="Vítor Neuenschwander">
+        <title>JS site</title>
+        <link rel="stylesheet" href="projectx.css">
+        <link rel="shortcut icon" href="icon/javaicon.png" type="image/png">
+    
+    </head>
+
+
+<body>
+
+
+
+
+<h1 id="h1">ProjectX</h1>
+    <p>Parágrafo 1</p>
+    <p>Parágrafo 2</p>
+
+  
+    <script>
+
+      let colorcorpo= window.prompt(`Qual sera a cor de fundo do seu site?`)
+      let h1txt= window.prompt(`O que estará escrito no título do seu site?`)
+      let p1txt= window.prompt(`O que estará escrito no 1º parágrafo do seu site?`)
+      let p2txt= window.prompt(`O que estará escrito no 2º parágrafo do seu site?`)
+      let colorh1= window.prompt(`Qual sera a cor do título do seu site?`)
+      let colorp1= window.prompt(`Qual sera a cor do 1º parágrafo do seu site?`)
+      let colorp2= window.prompt(`Qual sera a cor do 2º parágrafo do seu site?`)
+      var h1 = window.document.getElementById("h1")
+      var p1= window.document.getElementsByTagName('p')[0]
+      var p2= window.document.getElementsByTagName('p')[1]     
+      var corpo= window.document.body
+
+      corpo.style.background = colorcorpo
+      h1.style.color = colorh1
+      p1.style.color = colorp1
+      p2.style.color = colorp2
+      h1.textContent = h1txt
+      p1.textContent = p1txt
+      p2.textContent = p2txt
+    </script>
+    
+</body>
+
+
+</html>
